@@ -1,0 +1,14 @@
+vector<int> Lotto(int max, int n)
+{
+	vector<int> lotto;
+	for (int i = 1; i <= max; i++)
+	{
+		lotto.push_back(i);
+	}
+	srand(time(NULL));
+	random_shuffle(lotto.begin(), lotto.end());
+
+	lotto.erase(lotto.begin() + 6, lotto.end());
+
+	return lotto;
+}
