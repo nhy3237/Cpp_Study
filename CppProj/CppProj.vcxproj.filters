@@ -189,6 +189,9 @@
     <ClCompile Include="T230626.cpp">
       <Filter>소스 파일\Test</Filter>
     </ClCompile>
+    <ClCompile Include="L230724_Thread.cpp">
+      <Filter>소스 파일\Lesson</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stock00.h">

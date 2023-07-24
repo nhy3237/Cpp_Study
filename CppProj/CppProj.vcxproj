@@ -136,6 +136,7 @@
     <ClCompile Include="L230623.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="L230724_Thread.cpp" />
     <ClCompile Include="nested.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -238,7 +239,9 @@
     <ClCompile Include="T230623.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="T230626.cpp" />
+    <ClCompile Include="T230626.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="tabtenn1.cpp" />
     <ClCompile Include="tv.cpp" />
     <ClCompile Include="useaccnt.cpp">
